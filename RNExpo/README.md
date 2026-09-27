@@ -8,33 +8,17 @@ A to-do list mobile app built with React Native + Expo, backed by a Node.js Grap
 
 ### Prerequisites
 
-- Node.js v18+
+- Node.js v20+
 - Expo Go app installed on your iOS or Android device (for physical device testing)
 
-### 1. Start the Backend
-
-**Option A — Local**
-
-```bash
-cd ../Backend_GraphQL
-npm install
-npm run dev
-```
-
-Server starts at `http://localhost:4000/`.
-
-**Option B — Railway (deployed)**
-
-If the backend is deployed on Railway, skip this step. The server is already running at your Railway URL.
-
-### 2. Install App Dependencies
+### 1. Install App Dependencies
 
 ```bash
 cd RNExpo
 npm install
 ```
 
-### 3. Configure the GraphQL Endpoint
+### 2. Configure the GraphQL Endpoint
 
 Open `src/apollo/client.ts` and set the correct URL:
 
@@ -54,7 +38,7 @@ const GRAPHQL_URI = "https://your-app-name.up.railway.app/";
 
 > Currently the backend is deployed on Railway. If you are running the backend locally, replace the URL with the appropriate local address from the table above.
 
-### 4. Run the App
+### 3. Run the App
 
 ```bash
 npm start
