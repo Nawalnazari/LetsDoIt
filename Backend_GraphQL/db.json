@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "createdAt": "2026-09-01T09:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password123",
+      "createdAt": "2026-09-02T10:30:00.000Z"
+    }
+  ],
+  "todos": [
+    {
+      "id": "1",
+      "userId": "1",
+      "title": "Buy groceries",
+      "description": "Milk, eggs, bread and coffee",
+      "completed": true,
+      "createdAt": "2026-09-10T08:00:00.000Z",
+      "updatedAt": "2026-09-27T07:28:05.593Z"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "title": "Finish GraphQL backend",
+      "description": "Implement auth and todo CRUD",
+      "completed": true,
+      "createdAt": "2026-09-11T12:00:00.000Z",
+      "updatedAt": "2026-09-12T16:45:00.000Z"
+    },
+    {
+      "id": "4",
+      "userId": "2",
+      "title": "Read a book",
+      "description": "At least 30 pages",
+      "completed": false,
+      "createdAt": "2026-09-14T20:00:00.000Z",
+      "updatedAt": "2026-09-14T20:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "userId": "2",
+      "title": "Call mom",
+      "description": "",
+      "completed": true,
+      "createdAt": "2026-09-15T18:00:00.000Z",
+      "updatedAt": "2026-09-15T19:10:00.000Z"
+    },
+    {
+      "id": "6",
+      "userId": "1",
+      "title": "futsal session",
+      "description": "9:00pm at pj",
+      "completed": true,
+      "createdAt": "2026-09-27T07:28:35.777Z",
+      "updatedAt": "2026-09-27T08:03:16.036Z"
+    },
+    {
+      "id": "7",
+      "userId": "1",
+      "title": "watching movies",
+      "description": "at tgv ou",
+      "completed": false,
+      "createdAt": "2026-09-27T08:08:25.103Z",
+      "updatedAt": "2026-09-27T08:08:25.103Z"
+    }
+  ]
+}
