@@ -1,6 +1,7 @@
-import { ApolloClient, InMemoryCache, HttpLink } from '@apollo/client';
+import { ApolloClient, InMemoryCache, HttpLink } from "@apollo/client";
 
-const GRAPHQL_URI = 'http://localhost:4000/';
+// const GRAPHQL_URI = 'http://localhost:4000/';
+const GRAPHQL_URI = "letsdoit-production-1a5e.up.railway.app";
 
 const httpLink = new HttpLink({ uri: GRAPHQL_URI });
 
